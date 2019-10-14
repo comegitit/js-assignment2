@@ -37,7 +37,7 @@ HEADER
 - - - - - - - - - - - - - - - - - - - - - - - - */
 header {
     height: 80px;
-    background: #333;
+    background:#333;
 }
 
 header nav .wrapper {
@@ -66,7 +66,8 @@ header .close {
   background: url('./assets/close.svg');
   height: 30px;
   width: 30px;
-  background-size: 30px;
+  background-size: 35px;
+  /* font-weight: bold; */
   display: none;
 }
 header ul {
@@ -103,13 +104,16 @@ MEDIA QUERIES
       height: 100vh;
       transition: transform 0.5s;
       transform: translateX(0px);
-      background-color: #000000;
+      background-color: #333;
+      font-size: 20px;
+      border-radius: 2px;
+      line-height: 2;
       flex-direction: column;
   }
 
 
   .menu-open {
-      transform: translateX(-200px);
+      transform: translateX(-150px);
   }
 
   .menu-close {
